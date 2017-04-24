@@ -14,7 +14,7 @@ person: Feng
 define('ADMIN_INC',  preg_replace("/[\/\\\\]{1,}/", '/', dirname(__FILE__)));
 define('ADMIN_ROOT', preg_replace("/[\/\\\\]{1,}/", '/', substr(ADMIN_INC, 0, -3)));
 define('ADMIN_TEMP', ADMIN_ROOT.'/templates');
-require_once(ADMIN_ROOT.'/../include/common.inc.php');
+require_once(ADMIN_ROOT.'/include/common.inc.php');
 require_once(ADMIN_INC.'/page.class.php');
 
 
